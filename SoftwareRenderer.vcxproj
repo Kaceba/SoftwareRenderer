@@ -21,9 +21,11 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\model.cpp" />
+    <ClCompile Include="src\renderer.cpp" />
     <ClCompile Include="src\tgaimage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\renderer.h" />
     <ClInclude Include="src\vendor\geometry.h" />
     <ClInclude Include="src\vendor\model.h" />
     <ClInclude Include="src\vendor\tgaimage.h" />
