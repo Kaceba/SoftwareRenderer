@@ -13,6 +13,9 @@ public:
 	Renderer(int width, int height, const char* filename);
 	~Renderer();
 	void drawLine(int x0, int y0, int x1, int y1, TGAColor color);
-	void drawModel(Model* model);
+	void drawTriangle(Vec2i* triangleVA, TGAColor color);
+	void drawModelWireframe(Model* model, TGAColor color);
+	void drawModelRandomColors(Model* model);
+	void drawModelLighting(Model* model);
 
 };
